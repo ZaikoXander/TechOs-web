@@ -1,7 +1,13 @@
+import { Header } from "./components/Header";
+import { Banner } from "./components/banner";
+
 function App() {
   return (
-    <h1>Hello World!</h1>
-  )
+    <>
+      <Header></Header>
+      <Banner></Banner>
+    </>
+  );
 }
 
-export default App
+export default App;
