@@ -36,7 +36,7 @@ function App() {
             className="filter drop-shadow"
           />
           <div className='flex flex-col items-center gap-6'>
-            <h1 className='text-3xl font-bold'>Por que contratar nosso serviço?</h1>
+            <h1 className='text-3xl font-bold'>Por que escolher a TechOS?</h1>
             <div className='w-full bg-gray-300 rounded-lg shadow'>
               <p className='text-xl p-4 text-gray-800'>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic alias, excepturi qui vitae ad temporibus sit ducimus autem quae neque voluptates rem saepe perspiciatis quibusdam suscipit ratione? Fugiat, impedit expedita!

@@ -9,17 +9,17 @@ function Header() {
   const navItems: INavItem[] = [
     {
       link: '/',
-      text: 'Contrate-nos',
+      text: 'Nossa História',
     },
     {
       link: '/',
-      text: 'Nossa História',
-    }
+      text: 'Contate-nos',
+    },
   ]
 
   const renderedNavItems = navItems.map((navItem, index) => (
-    <li className="mx-3 text-xl font-normal">
-      <a href={navItem.link} key={index}>{ navItem.text }</a>
+    <li className="mx-3 text-xl font-normal" key={index}>
+      <a href={navItem.link}>{ navItem.text }</a>
     </li>
   ))
 
@@ -29,7 +29,7 @@ function Header() {
         <img
           src={logo}
           alt="TechOS logo"
-          className='w-32 -m-2'
+          className='w-20'
         />
       </a>
       <nav>
