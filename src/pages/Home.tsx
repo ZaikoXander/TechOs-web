@@ -19,8 +19,7 @@ function Home() {
             />
             <div className='w-full bg-gray-300 rounded-lg shadow'>
               <p className='text-xl p-4 text-gray-800'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ullam incidunt molestias nihil vero distinctio earum! Tenetur enim odio molestias, nemo ut amet minus illo eveniet perferendis totam, iusto earum.
-                Quaerat excepturi eaque delectus corrupti nulla soluta sunt, sequi velit porro. Accusantium consequuntur magni culpa architecto officia voluptatem eaque id doloribus numquam! Modi, at? Iste perferendis ipsum animi rerum vitae!
+              A TechOS é uma empresa de tecnologia fundada por empreendedores apaixonados, focada em resolver desafios complexos em todo o Brasil. Com base em Praia Grande, São Paulo, expandimos nossos serviços para várias regiões do país, incluindo Minas Gerais, Goiás, Santa Catarina e Bahia. Nossa principal área de atuação envolve instalação de sistemas operacionais, hardware, manutenção e segurança. Além disso, oferecemos serviços de consultoria estratégica e treinamento para facilitar a transição para soluções inovadoras. Trabalhamos em parceria com empresas líderes, como Dell Technologies, Oracle, Microsoft e Cisco Systems, para expandir nossas capacidades e fornecer soluções avançadas aos nossos clientes.
               </p>
             </div>
           </div>
@@ -36,10 +35,7 @@ function Home() {
             <h1 className='text-3xl font-bold'>Por que escolher a TechOS?</h1>
             <div className='w-full bg-gray-300 rounded-lg shadow'>
               <p className='text-xl p-4 text-gray-800'>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic alias, excepturi qui vitae ad temporibus sit ducimus autem quae neque voluptates rem saepe perspiciatis quibusdam suscipit ratione? Fugiat, impedit expedita!
-                Quis accusamus obcaecati explicabo? Vel repudiandae excepturi dolore fuga, laboriosam, ut molestiae nostrum dignissimos doloribus ipsum veritatis ex voluptas et expedita inventore laborum. Ex, placeat saepe accusamus expedita magnam quis.
-                Cupiditate, doloremque nobis placeat, voluptatibus quisquam modi aliquid neque perspiciatis nisi laudantium ipsa nam sint error deleniti debitis reprehenderit incidunt dolor? Dolore neque esse quas inventore labore, facere quasi porro?
-                Corrupti neque quis dolore officia alias voluptate nesciunt modi, voluptatibus animi consectetur iusto nulla adipisci magni, qui quam debitis a obcaecati id aspernatur minus accusantium fugit cum accusamus. Sit, nobis?
+              A TechOS é a escolha ideal devido à nossa expertise em tecnologia e compromisso com resultados excepcionais. Nossos serviços abrangem desde instalação de sistemas operacionais até consultoria estratégica, proporcionando soluções completas e inovadoras. Além disso, nossa parceria com empresas líderes nos permite oferecer tecnologia de ponta. Optar pela TechOS significa confiar em uma equipe apaixonada e altamente qualificada que está focada em atender às suas necessidades e impulsionar o seu sucesso.
               </p>
             </div>
           </div>
