@@ -3,7 +3,7 @@ import BannerStripeImage from '../assets/banner-stripe.png'
 
 function BannerStripe() {
   return (
-    <div className='absolute bottom-0 bg-[#A9B3F8] w-full h-4 flex justify-center items-center filter drop-shadow'>
+    <div className='absolute bottom-0 bg-[#A9B3F8] w-full h-4 flex justify-center items-center'>
       <img
         src={BannerStripeImage}
         alt="banner stripe diamond"
@@ -16,7 +16,7 @@ function BannerStripe() {
 function Banner() {
   return (
     <div
-      className="h-60 bg-cover bg-center flex items-center justify-center relative mb-12"
+      className="h-60 bg-cover bg-center flex items-center justify-center relative mb-12 filter drop-shadow"
       style={{ backgroundImage: `url(${BannerImage})` }}
     >
       <p className='text-white font-bold text-xl tracking-wider uppercase'>

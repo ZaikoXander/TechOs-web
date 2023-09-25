@@ -12,7 +12,7 @@ function Header() {
       text: 'Nossa História',
     },
     {
-      link: '/',
+      link: '/contact-us',
       text: 'Contate-nos',
     },
   ]
@@ -24,7 +24,7 @@ function Header() {
   ))
 
   return (
-    <header className="flex justify-between items-center h-16 bg-gray-100 px-4">
+    <header className="flex justify-between items-center h-16 bg-gray-100 px-4 filter drop-shadow">
       <a href="/">
         <img
           src={logo}
