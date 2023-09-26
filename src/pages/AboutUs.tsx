@@ -11,8 +11,7 @@ import mariana from "../assets/integrantes/mariana.jpg";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "../css/ClientesPage.css"; // Importe um arquivo CSS para personalizar o estilo do carrossel
-import PessoasContainer from "../components/PessoasContainer";
-import ProjetoContainer from "./ProjetoContainer";
+import People from "../components/People";
 
 const clientes = [
   {
@@ -88,7 +87,7 @@ const ClientesPage: React.FC = () => {
         </div>
         <div>
         <h1 className="text-3xl font-bold text-center mb-4">EQUIPE</h1>
-        <PessoasContainer pessoas={pessoas} />
+        <People people={pessoas} />
       </div>
       </div>
     </>

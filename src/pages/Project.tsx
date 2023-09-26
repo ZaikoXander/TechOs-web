@@ -1,16 +1,15 @@
-import React from "react";
-
 import cliente from "../assets/client2.png";
 import estruturaTI from "../assets/estrutura.jpg";
 import problema from "../assets/problema.jpg";
 import solucao from "../assets/solucao.png";
 import seguranca from "../assets/segurança.jpg";
 import contrato from "../assets/contrato.jpg";
+import Materials from '../assets/materials.png'
 
-const ProjetoContainer = () => {
+function Project() {
   return (
-    <div>
-      <div className="container mx-auto mt-8 flex items-center justify-center mt-20 mb-16">
+    <main>
+      <div className="container mx-auto mt-8 flex items-center justify-center mb-16">
         <div className="max-w-4xl w-full bg-white p-8 rounded-lg shadow-lg flex flex-col items-center space-y-4">
           <h2 className="text-2xl font-semibold text-center">
             Projeto PartsCenter
@@ -120,7 +119,6 @@ const ProjetoContainer = () => {
           </div>
         </div>
       </div>
-
       <div className="container mx-auto mt-8 flex flex-col md:flex-row md:space-x-8 my-20">
         <div className="max-w-4xl w-full bg-white p-8 rounded-lg shadow-lg flex flex-col items-center space-y-4">
           <h2 className="text-2xl font-semibold text-center">
@@ -150,8 +148,15 @@ const ProjetoContainer = () => {
           </p>
         </div>
       </div>
-    </div>
+      <div className="container mx-auto mt-8 flex flex-col md:flex-row md:space-x-8 my-20">
+        <img
+          src={Materials}
+          alt="Materials used in the project"
+          className="border-b-2 border-gray-800 shadow-lg"
+        />
+      </div>
+    </main>
   );
-};
+}
 
-export default ProjetoContainer;
+export default Project;

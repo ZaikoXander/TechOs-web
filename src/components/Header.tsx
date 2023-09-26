@@ -12,6 +12,14 @@ function Header() {
       text: 'Nossa História',
     },
     {
+      link: '/project',
+      text: 'Projeto',
+    },
+    {
+      link: '/linux',
+      text: 'Linux',
+    },
+    {
       link: '/contact-us',
       text: 'Contate-nos',
     },
@@ -19,10 +27,6 @@ function Header() {
       link: '/about-us',
       text: 'Saiba Mais',
     },
-    {
-      link: '/project',
-      text: 'Projeto',
-    }
   ]
 
   const renderedNavItems = navItems.map((navItem, index) => (
