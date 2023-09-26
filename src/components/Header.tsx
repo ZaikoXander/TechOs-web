@@ -15,10 +15,18 @@ function Header() {
       link: '/contact-us',
       text: 'Contate-nos',
     },
+    {
+      link: '/about-us',
+      text: 'Saiba Mais',
+    },
+    {
+      link: '/project',
+      text: 'Projeto',
+    }
   ]
 
   const renderedNavItems = navItems.map((navItem, index) => (
-    <li className="mx-3 text-xl font-normal" key={index}>
+    <li className="mx-3 text-xl font-semibold" key={index}>
       <a href={navItem.link}>{ navItem.text }</a>
     </li>
   ))

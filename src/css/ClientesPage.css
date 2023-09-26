@@ -1,0 +1,21 @@
+
+.carousel-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  width: 900px; 
+  margin: 0 auto;
+  background-color: rgb(189, 189, 190);
+  margin-bottom: 100px;
+  height: 500px;
+}
+
+.legend {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+
