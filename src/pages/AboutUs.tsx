@@ -1,6 +1,8 @@
 import React from "react";
 import cliente1 from "../assets/client1.png";
 import cliente2 from "../assets/client2.png";
+import cliente3 from "../assets/logoVivo.png";
+import cliente4 from "../assets/logoSAP.png";
 import matheus from "../assets/integrantes/matheus.jpg";
 import aline from "../assets/integrantes/aline.jpg";
 import denys from "../assets/integrantes/denys.jpg";
@@ -23,6 +25,16 @@ const clientes = [
     id: 2,
     nome: "Cliente 2",
     imagem: cliente2,
+  },
+  {
+    id: 3,
+    nome: "Cliente 2",
+    imagem: cliente3,
+  },
+  {
+    id: 4,
+    nome: "Cliente 2",
+    imagem: cliente4,
   },
 ];
 

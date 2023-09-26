@@ -4,7 +4,7 @@ import problema from "../assets/problema.jpg";
 import solucao from "../assets/solucao.png";
 import seguranca from "../assets/segurança.jpg";
 import contrato from "../assets/contrato.jpg";
-import Materials from '../assets/materials.png'
+import Materials from "../assets/materials.png";
 
 function Project() {
   return (
@@ -110,10 +110,20 @@ function Project() {
           <div>
             <ol>
               <li className="text-lg" style={{ margin: "15px" }}>
-                <b>Seleção de Sistema Operacional:</b> Recomendamos a transição da PartsCenter para um sistema operacional baseado em Linux. Essa escolha é baseada em sua estabilidade, segurança e custos mais baixos em comparação com sistemas operacionais proprietários, como o Windows. O Linux oferece uma ampla gama de distribuições que podem ser personalizadas para atender às necessidades específicas da empresa.
+                <b>Seleção de Sistema Operacional:</b> Recomendamos a transição
+                da PartsCenter para um sistema operacional baseado em Linux.
+                Essa escolha é baseada em sua estabilidade, segurança e custos
+                mais baixos em comparação com sistemas operacionais
+                proprietários, como o Windows. O Linux oferece uma ampla gama de
+                distribuições que podem ser personalizadas para atender às
+                necessidades específicas da empresa.
               </li>
               <li className="text-base" style={{ margin: "15px" }}>
-                <b>Justificativa da Escolha:</b> A seleção do Linux é justificada pela sua natureza de código aberto, o que significa que a PartsCenter terá acesso a atualizações de segurança regulares sem custos adicionais. Além disso, a comunidade de desenvolvedores do Linux oferece suporte robusto e contínuo.
+                <b>Justificativa da Escolha:</b> A seleção do Linux é
+                justificada pela sua natureza de código aberto, o que significa
+                que a PartsCenter terá acesso a atualizações de segurança
+                regulares sem custos adicionais. Além disso, a comunidade de
+                desenvolvedores do Linux oferece suporte robusto e contínuo.
               </li>
             </ol>
           </div>
@@ -121,22 +131,23 @@ function Project() {
       </div>
       <div className="container mx-auto mt-8 flex flex-col md:flex-row md:space-x-8 my-20">
         <div className="max-w-4xl w-full bg-white p-8 rounded-lg shadow-lg flex flex-col items-center space-y-4">
-          <h2 className="text-2xl font-semibold text-center">
-          Segurança
-          </h2>
+          <h2 className="text-2xl font-semibold text-center">Segurança</h2>
           <img
             src={seguranca}
             alt="Projeto PartsCenter"
             className="w-64 h-64 rounded-full"
           />
           <p className="text-center text-xl font-base">
-          Implementaremos medidas de segurança rigorosas, incluindo firewalls, criptografia de dados, autenticação de dois fatores e monitoramento de ameaças em tempo real. Isso garantirá a integridade e a confidencialidade dos dados da empresa e dos clientes.
+            Implementaremos medidas de segurança rigorosas, incluindo firewalls,
+            criptografia de dados, autenticação de dois fatores e monitoramento
+            de ameaças em tempo real. Isso garantirá a integridade e a
+            confidencialidade dos dados da empresa e dos clientes.
           </p>
         </div>
 
         <div className="max-w-4xl w-full bg-white p-8 rounded-lg shadow-lg flex flex-col items-center space-y-4">
           <h2 className="text-2xl font-semibold text-center">
-          Contrato e Pacotes de Manutenção
+            Contrato e Pacotes de Manutenção
           </h2>
           <img
             src={contrato}
@@ -144,10 +155,17 @@ function Project() {
             className="w-64 h-64 rounded-full"
           />
           <p className="text-center text-xl font-base">
-          A TechOS ofereceu à PartsCenter um contrato de suporte abrangente que inclui monitoramento 24/7, manutenção proativa e assistência técnica em caso de problemas. Os pacotes de manutenção serão personalizados de acordo com as necessidades da PartsCenter e garantirão a estabilidade contínua do sistema operacional.
+            A TechOS ofereceu à PartsCenter um contrato de suporte abrangente
+            que inclui monitoramento 24/7, manutenção proativa e assistência
+            técnica em caso de problemas. Os pacotes de manutenção serão
+            personalizados de acordo com as necessidades da PartsCenter e
+            garantirão a estabilidade contínua do sistema operacional.
           </p>
         </div>
       </div>
+      <h2 className="text-2xl font-semibold text-center">
+        Recursos materiais e financeiros
+      </h2>
       <div className="container mx-auto mt-8 flex flex-col md:flex-row md:space-x-8 my-20">
         <img
           src={Materials}
