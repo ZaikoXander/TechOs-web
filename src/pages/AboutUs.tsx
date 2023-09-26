@@ -60,7 +60,7 @@ const pessoas = [
   },
   {
     nome: "Arthur Barbosa",
-    cargo: "Cargo 2",
+    cargo: "Diretor de Criação",
     imagemUrl: arthur,
   }
   
@@ -69,7 +69,7 @@ const pessoas = [
 const ClientesPage: React.FC = () => {
   return (
     <>
-      <div className="container mx-auto mt-8">
+      <div className="container mx-auto my-16">
         <h1 className="text-3xl font-semibold mb-4">
           Nossos principais clientes
         </h1>
@@ -91,10 +91,6 @@ const ClientesPage: React.FC = () => {
         <PessoasContainer pessoas={pessoas} />
       </div>
       </div>
-      <ProjetoContainer 
-        imagemUrl={cliente1}
-        descricao='descrição'
-      />
     </>
   );
 };
