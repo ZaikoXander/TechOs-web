@@ -41,12 +41,8 @@ function Project() {
             A empresa cliente, PartsCenter, é uma organização de médio porte que
             deseja ingressar no mercado de autopeças. Antes do início deste
             projeto, a PartsCenter contava com uma infraestrutura de TI
-            limitada, condizente com seu tamanho e escopo de operações. Abaixo,
-            apresentamos detalhes sobre o tamanho da empresa e sua
-            infraestrutura de TI pré-projeto:
+            limitada, condizente com seu tamanho e escopo de operações.
           </p>
-
-          <p></p>
         </div>
       </div>
 
